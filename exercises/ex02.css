@@ -1,1 +1,20 @@
-p {color: chartreuse;}
+HTML {background-color: peachpuff}
+
+ol{color: purple}
+li:hover{background-color: lightcoral}
+#list{background-color: aliceblue; padding:20px;
+box-shadow: 10px 10px 15px 9px rgba(0,0,0,0.71);
+-webkit-box-shadow: 10px 10px 15px 9px rgba(0,0,0,0.71);
+-moz-box-shadow: 10px 10px 15px 9px rgba(0,0,0,0.71);}
+
+
+H1{background-color: rgb(235, 235, 154); padding:20px; margin: 15px; color:blue; font-weight: normal; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+H2{background-color: rgb(235, 235, 154); padding:10px; color:blue; font-weight: normal; font-family: cursive ; }
+H3{background-color: rgb(235, 235, 154); padding:10px; color:blue; font-weight: normal; font-family: cursive ; }
+
+P{color:green}
+
+.highlight_01 {background-color: lightskyblue;}
+
+a:hover{background-color: lightskyblue;}
+

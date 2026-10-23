@@ -10,20 +10,23 @@ $("#needy-button").click( function (){
     // what to do when the button is clicked 
 count = count + 1; 
 
-console.log(count);
-console.log(colors[count-1]);
 
-buttonText= "Kissed" + count + "times" + colors[count-1];
+console.log(count);
+console.log(colors[colorsCount]);
+
+buttonText= "Kissed" + count + "times and color is" + colors[colorsCount];
 
 $("needy-button").html(buttonText);
 
-$("body").css( "background-color", colors[count-1] );
+$("body").css( "background-color", colors[colorsCount] );
+
 
 //$("body").append(" <img width='50' src="" + colors[count-1] + ".jpg">");
 // if we run out of colors in array start from the beginning one again
 
-if(count >= 9) { count = 0;}
+if(colorsCount >= 9) { colorsCount = 0;}
 
+colorsCount = colorsCount +1 ;
 
 
 

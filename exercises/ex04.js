@@ -34,8 +34,9 @@ $("#needy-button").click( function (){
 
     // if we are run out of colors start fron the first one anew
 
-    if (count >= 5) { $("#needy-button").after("<p>my mood is ... enlightened</p>"); }
-    
+    if ( (count >= 1) && (count < 5) ) { $("#needy-button").after("<p>my mood is ... improving</p>"); }
+    if ((count >= 5) && (count < 10)) { $("#needy-button").after("<p>my mood is ... enlightened</p>"); }
+    if (count >= 10) { $("#needy-button").after("<p>my mood is ... questioning reality</p>"); }
 
     colorsCount = colorsCount +1; // new line
 

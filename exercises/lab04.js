@@ -1,5 +1,5 @@
 let count = 0;
-let buttonCreature = { name: "Mellisuga Helenae", species: "Bee Hummingbird", favoritefood: "clicks", moods: ["sleepy", "nervous", "glowing", "dramatic", "hopeful", "confused",]};
+let buttonCreature = { name: "Mellisuga Helenae", species: "Bee Hummingbird", favoritefood: "Ramgoat Dashalong", moods: ["loving", "glowing", "inspiring", "hopeful", "excited", "joyus",]};
 
 $("#needy-button").click(function()
     { count = count + 1;
@@ -9,8 +9,8 @@ $("#needy-button").click(function()
     message = message + "<p> My current mood is " + currentMood + ".</p>";
 
     message = message + "<p> My name is " + buttonCreature.name + ".</p>";
-    message = message + "<p> I am an " + buttonCreature.species + ".</p>";
-    message = message + "<p> My favorite food is " + buttonCreature.favoriteFood + ".</p>";
+    message = message + "<p> I am a " + buttonCreature.species + ".</p>";
+    message = message + "<p> My favorite food is " + buttonCreature.favoritefood + ".</p>";
 
     $("#output").html(message);
 

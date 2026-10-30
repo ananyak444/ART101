@@ -1,7 +1,7 @@
 let count = 0;
 let buttonCreature = { name: "Mellisuga Helenae", species: "Bee Hummingbird", favoritefood: "Ramgoat Dashalong", moods: ["loving", "glowing", "inspiring", "hopeful", "excited", "joyus",]};
 
-$("#needy-button").click(function()
+$("#hum").click(function()
     { count = count + 1;
     let arrayPosition = count - 1;
     let currentMood = buttonCreature.moods[arrayPosition];

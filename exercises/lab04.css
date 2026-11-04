@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 32px;
+    font-family: Arial, sans-serif;
+    color: #111169;
+    background-color: #feedff;
+    text-align: center;
+}
+#hum button {
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+}

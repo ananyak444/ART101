@@ -1,15 +1,16 @@
+let count = 0
 function askNumber(whatNumber) {
-    let userNumber = prompt("Guess 1-20?");
+    let userNumber=prompt
 
     if (userNumber == whatNumber) {
-        $("#output").html("You guessed correct!");
+        $("#output").html("You got it!");
     }
     else {
-        $("#output").html("Guess again");
+        $("#output").html("Noooooope");
     }
 }
-
 $("#good-button").click(function () {
-    askNumber(15);
+    askNumber(5);
+    count = count +1; 
+    console.log(count);
 });
-

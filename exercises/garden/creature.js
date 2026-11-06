@@ -2,9 +2,12 @@
 $("#add-button").click(function () {
     // .val() reads the field; .trim() removes spaces at either end.
     let label = $("#item-label").val().trim();
+    let labelLength=label.length;
 
-    if (label == "") {
-        $("#message").text("Enter a label.");
+    console.log(labelLength);
+
+    if ( (label == "") || (labelLength>20) ) {
+        $("#message").text("Creature's name must be between 1 and 20 characters");
     }
     else {
         // HTML inside $(...) creates a new element, not yet on the page.

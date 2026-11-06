@@ -12,7 +12,7 @@ let mainEntity = {
 
 $("#zoid").click(function()
     { count = count + 1;
-    let arrayPosition = count - 1;});
+    let arrayPosition = count - 1; });
 
     $("#one").click(function()
     { count = count + 1;
@@ -21,3 +21,6 @@ $("#zoid").click(function()
     $("#two").click(function()
     { count = count + 1;
     let arrayPosition = count - 1;});
+
+
+
